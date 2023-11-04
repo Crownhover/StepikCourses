@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c82cd43d-1ea1-4d0a-b835-edc9e0b7d957</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Section3\3_2_10_Тесты_assert_теория.py</StartupFile>
+    <StartupFile>Section3\3_1_11_unittest_practice.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -34,7 +34,8 @@
     <Compile Include="Section1\1.6.4.py" />
     <Compile Include="Section1\1.6.7.py" />
     <Compile Include="Section1\PythonApplication1.2.11.py" />
-    <Compile Include="Section3\3_2_10_Тесты_assert_теория.py" />
+    <Compile Include="Section3\3_1_11_unittest_practice.py" />
+    <Compile Include="Section3\test_abs_project.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Section3\" />
