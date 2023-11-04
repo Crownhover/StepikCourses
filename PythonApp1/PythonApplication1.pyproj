@@ -1,0 +1,62 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>c82cd43d-1ea1-4d0a-b835-edc9e0b7d957</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Section3\3_2_10_Тесты_assert_теория.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>PythonApplication1</Name>
+    <RootNamespace>PythonApplication1</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Section 2\2.1.5 calc, def.py" />
+    <Compile Include="Section 2\2.1.6assert get_attribute.py" />
+    <Compile Include="Section 2\2.1.7. calc.assert.get_attribute.py" />
+    <Compile Include="Section 2\2.2.3 select.text%28%29..py" />
+    <Compile Include="Section 2\2.2.6. execute_script практика%28скролл%29.py" />
+    <Compile Include="Section 2\2.2.7. example работа с файлами .py" />
+    <Compile Include="Section 2\2.3.4. alert_confirm_prompt.py" />
+    <Compile Include="Section 2\2.3.6. switch_to.py" />
+    <Compile Include="Section1\1.6.10. registration.py" />
+    <Compile Include="Section1\1.6.2 локаторы.py" />
+    <Compile Include="Section1\1.6.4.py" />
+    <Compile Include="Section1\1.6.7.py" />
+    <Compile Include="Section1\PythonApplication1.2.11.py" />
+    <Compile Include="Section3\3_2_10_Тесты_assert_теория.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Section3\" />
+    <Folder Include="Section1\" />
+    <Folder Include="Section 2\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Section 2\2.2.5. execute_script%28скролл%29.py" />
+    <Content Include="Section 2\2.2.8. файлы практика.py" />
+    <Content Include="Section 2\2.4.7 impilicity_wait.py" />
+    <Content Include="Section 2\2.4.8. Explicit WaitsWebDriverWait  true.py" />
+    <Content Include="Section 2\Полезные ссылки.py" />
+    <Content Include="Section1\1.6.5.py" />
+    <Content Include="Section1\1.6.8 xpath пример.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
